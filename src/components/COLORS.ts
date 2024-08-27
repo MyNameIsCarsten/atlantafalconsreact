@@ -1,0 +1,12 @@
+export enum COLORS {
+    LIGHTGREY = '#ececf1',
+    SMOOTHGREY = '#f5f3f6',
+    GREY = '#A5ACAF',
+    WHITE = '#ffffff',
+    PRIMARY_FONT="#A71930", // #6A5FC1
+    BACKGROUND='#000000', // #1F1633
+    BACKGROUND_LIGHT = 'rgba(173, 108, 170, 0.3)',
+    UNDERSCORE_START_COLOR = PRIMARY_FONT, // #c83852
+    UNDERSCORE_MIDDLE_COLOR = '#B94759', // #b44092
+    UNDERSCORE_END_COLOR = '#E8C3C9', // #ffb287
+}
