@@ -23,6 +23,7 @@ import Big from "../Structural/Big.tsx";
 import TextHeader from "../TextElements/TextHeader.tsx";
 import styled from "styled-components";
 import NavigationSection from "../Sections/NavigationSection.tsx";
+import CardHoverSection from "../Sections/CardHoverSection.tsx";
 
 const ButtonSection = styled.section`
     display: flex;
@@ -55,6 +56,8 @@ function Home() {
         <>
             <NavigationSection />
             <HeroSection text={"Rise Up!"}/>
+            <H2 text={"Cards with Hovering Effect"}/>
+            <CardHoverSection />
             <H2 text={"Buttons & Links"}/>
             <ButtonSection>
                 <PrimaryButton text={"Primary"}/>
